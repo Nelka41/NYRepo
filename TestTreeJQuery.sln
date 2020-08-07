@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTreeJQuery", "TestTreeJQuery\TestTreeJQuery.csproj", "{DB1712B8-64C1-4CEF-8988-EF25CA41344B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1712B8-64C1-4CEF-8988-EF25CA41344B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1712B8-64C1-4CEF-8988-EF25CA41344B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1712B8-64C1-4CEF-8988-EF25CA41344B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1712B8-64C1-4CEF-8988-EF25CA41344B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3456812-B2F6-4D46-B3AD-B51A90A064B2}
+	EndGlobalSection
+EndGlobal
