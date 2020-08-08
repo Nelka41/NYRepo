@@ -170,12 +170,15 @@
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="index.js" />
+    <Content Include="jqtree-circle.png" />
+    <Content Include="jqtree.css" />
     <Content Include="style.css" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ApplicationMenuDataSource.sitemap" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="tree.jquery.js" />
     <Content Include="Web.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
