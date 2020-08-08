@@ -73,23 +73,12 @@
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
-    <Reference Include="DevExpress.Data.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxThemes.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Web.ASPxScheduler.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Account\Register.aspx" />
-    <Content Include="Account\SignIn.aspx" />
     <Content Include="App_Data\Article.html" />
     <Content Include="App_Data\ArticleContents.xml" />
     <Content Include="App_Data\Overview.html" />
     <Content Include="App_Data\OverviewContents.xml" />
-    <Content Include="Article.aspx" />
     <Content Include="Content\Content.css" />
     <Content Include="Content\GridView.css" />
     <Content Include="Content\GridView.js" />
@@ -178,17 +167,10 @@
     <Content Include="Content\SignInRegister.css" />
     <Content Include="Content\SignInRegister.js" />
     <Content Include="Data.js" />
-    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="GridView.aspx" />
-    <Content Include="GridViewDetailsPage.aspx" />
     <Content Include="index.html" />
     <Content Include="index.js" />
-    <Content Include="Scheduler.aspx" />
     <Content Include="style.css" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Root.master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\ApplicationMenuDataSource.sitemap" />
@@ -204,68 +186,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Account\SignIn.aspx.cs">
-      <DependentUpon>SignIn.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Account\SignIn.aspx.designer.cs">
-      <DependentUpon>SignIn.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Article.aspx.cs">
-      <DependentUpon>Article.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Article.aspx.designer.cs">
-      <DependentUpon>Article.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Code\AuthHelper.cs" />
-    <Compile Include="Code\DBContext.cs" />
     <Compile Include="Controllers\GreetingsController.cs" />
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="GridView.aspx.cs">
-      <DependentUpon>GridView.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GridView.aspx.designer.cs">
-      <DependentUpon>GridView.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GridViewDetailsPage.aspx.cs">
-      <DependentUpon>GridViewDetailsPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="GridViewDetailsPage.aspx.designer.cs">
-      <DependentUpon>GridViewDetailsPage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Root.master.cs">
-      <DependentUpon>Root.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Root.master.designer.cs">
-      <DependentUpon>Root.master</DependentUpon>
-    </Compile>
-    <Compile Include="Scheduler.aspx.cs">
-      <DependentUpon>Scheduler.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Scheduler.aspx.designer.cs">
-      <DependentUpon>Scheduler.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

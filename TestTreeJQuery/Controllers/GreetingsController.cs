@@ -77,7 +77,7 @@ namespace TestTreeJQuery.Controllers
             ];
             }";
 
-            return Json(jsonStr);
+            return Json( JsonConvert.DeserializeObject(jsonStr));
 
         }
     }

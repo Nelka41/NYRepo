@@ -45,7 +45,7 @@ $(function () {
         return {
             load: function (options) {
                 return $.ajax({
-                    url: "/api/Greetings/Clients",
+                    url: "api/Greetings/Clients",
                     dataType: "json",
                     data: { parentIds: options.parentIds }
                 });

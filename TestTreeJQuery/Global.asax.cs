@@ -6,7 +6,6 @@ namespace TestTreeJQuery {
     public class Global_asax : System.Web.HttpApplication {
         void Application_Start(object sender, EventArgs e) {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            DevExpress.Web.ASPxWebControl.CallbackError += new EventHandler(Application_Error);
         }
 
         void Application_End(object sender, EventArgs e) {
