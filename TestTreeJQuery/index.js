@@ -17,14 +17,23 @@ var data = [
 ];
 
 
-$(function() {
-    $('#tree1').tree({
-        data: data
-    });
-});
+//$(function() {
+//    $('#tree1').tree({
+//        data: data
+//    });
+//});
+//
 
+$.getJSON(
+    'api/Greetings/GetTree',
+    function (data) {
+        console.log(data);
 
-
+        $('#tree1').tree({
+            data: data.clients
+        });
+    }
+);
 
 
 //$(function () {

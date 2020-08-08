@@ -52,29 +52,21 @@ namespace TestTreeJQuery.Controllers
         [HttpGet]
         public IHttpActionResult GetTree()
         {
-            string jsonStr = @" [
-              {
-                id: '0',
-                text: 'node-0',
+            string jsonStr = @"{'clients': [
+            {
+                name: 'node1',
                 children: [
-                  {
-                    id: '0-0',
-                    text: 'node-0-0',
-                    children: [
-                      {id: '0-0-0', text: 'node-0-0-0'},
-                      {id: '0-0-1', text: 'node-0-0-1'},
-                      {id: '0-0-2', text: 'node-0-0-2'},
-                    ]
-                  },
-                  {id: '0-1', text: 'node-0-1'}
-                ],
-              },
-              {
-                id: '1',
-                text: 'node-1',
-                children: [{id: '1-0', text: 'node-1-0'}, {id: '1-1', text: 'node-1-1'}]
-              },
-            ]";
+                    { name: 'child1' },
+                    { name: 'child2' }
+                ]
+            },
+            {
+                name: 'node2',
+                children: [
+                    { name: 'child3' }
+                ]
+            }
+        ]}";
 
             return Json( JsonConvert.DeserializeObject(jsonStr));
 
