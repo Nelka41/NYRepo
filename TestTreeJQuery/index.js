@@ -5,7 +5,10 @@ var data = [
         name: 'node1',
         children: [
             { name: 'child1' },
-            { name: 'child2' }
+            {
+                name: 'child2',
+                children: [{name: 'child21'}]
+            }
         ]
     },
     {
@@ -17,23 +20,23 @@ var data = [
 ];
 
 
-//$(function() {
-//    $('#tree1').tree({
-//        data: data
-//    });
-//});
+$(function() {
+    $('#tree1').tree({
+        data: data
+    });
+});
+
+
+//$.getJSON(
+//    'api/Greetings/GetTree',
+//    function (data) {
+//        console.log(data);
 //
-
-$.getJSON(
-    'api/Greetings/GetTree',
-    function (data) {
-        console.log(data);
-
-        $('#tree1').tree({
-            data: data.clients
-        });
-    }
-);
+//        $('#tree1').tree({
+//            data: data.clients
+//        });
+//    }
+//);
 
 
 //$(function () {
